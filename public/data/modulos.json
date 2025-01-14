@@ -1,0 +1,30 @@
+[
+    {
+        "tema": "Introdução",
+        "descricao": "Aula de introdução, massoterapia e linguagem corporal, qualidades profissionais do massoterapeuta e apresentação do curso de linguagem corporal."
+    },
+    {
+        "tema": "Linguagem Corporal",
+        "descricao": "Introdução à linguagem corporal, análise dos membros superiores e inferiores e aplicação prática da linguagem corporal."
+    },
+    {
+        "tema": "Prática",
+        "descricao": "Introdução às práticas de massoterapia e técnicas clássicas."
+    },
+    {
+        "tema": "Membros Superiores",
+        "descricao": "Estudo do pescoço, ombros, costas, braços e articulação temporomandibular (ATM)."
+    },
+    {
+        "tema": "Membros Inferiores",
+        "descricao": "Foco nas pernas e no quadril."
+    },
+    {
+        "tema": "Finalização",
+        "descricao": "Considerações finais e encerramento do curso."
+    },
+    {
+        "tema": "Paulao",
+        "descricao": "Considerações finais e encerramento do curso."
+    }
+]

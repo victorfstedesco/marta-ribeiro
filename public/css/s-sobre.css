@@ -1,0 +1,25 @@
+.sobre{
+    width: 100vw;
+    background-image: url('../assets/sobrecurso.png');
+    background-size:cover;           
+    background-repeat:no-repeat;
+    background-position:center center;   
+}
+
+.banner{
+    padding: 48px 16px 48px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+
+}
+
+.banner-text{
+    text-align: center;
+    color: white !important;
+
+    & .banner-text, h3,p{
+        color: white !important;
+    }
+}

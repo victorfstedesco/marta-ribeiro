@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & .logo, h4{
+        font-weight: 300;
+        letter-spacing: 10px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .display{
+        width: 768px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .display{
+        width: 1024px;
+    }
+
+}
+

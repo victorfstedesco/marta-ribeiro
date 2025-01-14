@@ -1,0 +1,155 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    padding: 16px 16px 0px 16px ;
+    border-top: 1px solid #D9D9D9;
+    margin-bottom: 4rem;
+}
+
+.f-display{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    align-items: center;
+}
+
+.f-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+
+    & .f-sociais{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    & .f-desc, h6{
+        font-size: 14px;
+        font-weight: 400;
+        color: #BBBBBB;
+    }
+}
+
+footer h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #BBBBBB;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        border: none;
+
+        padding: 16px 16px 0px 16px ;
+    }
+
+
+    .f-display{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1.5rem;
+        width: 768px;
+
+        padding: 16px 0px 0px 0px;
+        border-top: 1px solid #D9D9D9;
+        margin-bottom: 4rem;
+    }
+    
+    .f-desc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    
+        & .f-sociais{
+            display: flex;
+            gap: 2rem;
+        }
+    
+        & .f-desc, h6{
+            font-size: 14px;
+            font-weight: 400;
+            color: #BBBBBB;
+        }
+    }
+    
+    footer h6{
+        font-size: 14px;
+        font-weight: 400;
+        color: #BBBBBB;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        border: none;
+
+        padding: 16px 16px 0px 16px ;
+    }
+
+
+    .f-display{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1.5rem;
+        width: 1024px;
+
+        padding: 16px 0px 0px 0px;
+        border-top: 1px solid #D9D9D9;
+        margin-bottom: 4rem;
+    }
+    
+    .f-desc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    
+        & .f-sociais{
+            display: flex;
+            gap: 2rem;
+        }
+    
+        & .f-desc, h6{
+            font-size: 14px;
+            font-weight: 400;
+            color: #BBBBBB;
+        }
+    }
+    
+    footer h6{
+        font-size: 14px;
+        font-weight: 400;
+        color: #BBBBBB;
+    }
+}
