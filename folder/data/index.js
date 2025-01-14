@@ -1,27 +1,27 @@
-async function loadData() {
-  try {
-    const response = await fetch("../public/data/modulos.json");
-    const data = await response.json();
+// async function loadData() {
+//   try {
+//     const response = await fetch("../folder/data/modulos.json");
+//     const data = await response.json();
 
-    const containerhtml = document.getElementById("modulos");
+//     const containerhtml = document.getElementById("modulos");
 
-    data.forEach((datas) => {
-      const div = document.createElement("div");
+//     data.forEach((datas) => {
+//       const div = document.createElement("div");
 
-      div.innerHTML = `
-            <h4>${datas.tema}</h4>
-            <div style="width: 1px; height: 24px; background-color: #E7E7E7;"></div>
-            <p>${datas.descricao}</p>
-            `;
-      div.classList.add("m-card");
-      containerhtml.appendChild(div);
-    });
-  } catch (erro) {
-    console.error("Erro ao carregar os dados ", erro);
-  }
-}
+//       div.innerHTML = `
+//             <h4>${datas.tema}</h4>
+//             <div style="width: 1px; height: 24px; background-color: #E7E7E7;"></div>
+//             <p>${datas.descricao}</p>
+//             `;
+//       div.classList.add("m-card");
+//       containerhtml.appendChild(div);
+//     });
+//   } catch (erro) {
+//     console.error("Erro ao carregar os dados ", erro);
+//   }
+// }
 
-loadData();
+// loadData();
 
 var form = document.getElementById("sheetdb-form");
 form.addEventListener("submit", (e) => {
@@ -50,7 +50,7 @@ const onload = function () {
     `;
   } else {
     console.log("O formulário não foi enviado ainda");
-    formulario.innerHTML` 
+    formulario.innerHTML = ` 
     <form action="https://sheetdb.io/api/v1/p8swelqoplbtb" method="post" id="sheetdb-form">
       <input type="name" name="Nome" placeholder="Seu nome" required />
       <input type="email" name="Email" placeholder="Seu melhor e-mail" required />
@@ -60,8 +60,7 @@ const onload = function () {
           <h6>Quero participar</h6>
           <img src="/public/assets/arrow-up.svg" alt="">
       </button>
-  </form>
-`;
+  </form>`;
   }
 };
 
