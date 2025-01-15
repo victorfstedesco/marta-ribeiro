@@ -11,6 +11,7 @@
 .c-hero{
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     gap: 3rem;
     padding: 40px 16px 0px 16px;
@@ -43,10 +44,9 @@
     }
 }
 
-.foto{
-    width: 100%;
-    height: 510px;  
-    background-image: url('../assets/foto.png');
+.foto2{
+    width: 100%;  
+    background-image: url('../assets/foto2.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -66,15 +66,15 @@
 
     .c-hero{
         display: flex;
-        flex-direction: row;
+        flex-direction: block;
     
         gap: 3rem;
         padding: 40px 24px 0px 24px;
-    
-    & .foto{
+
+    & .foto2{
         width: 100%;
-        height: auto;
-        background-image: url('../assets/foto.png');
+        height: 500px;
+        background-image: url('../assets/foto2.jpeg');
         background-size: cover;
         background-position: center;
     }
@@ -105,8 +105,17 @@
     
     & .foto{
         width: 100%;
-        height: auto;
+        height: 500px;
         background-image: url('../assets/foto.png');
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    & .foto2{
+        width: 100%;
+        height: 500px;
+        background-image: url('../assets/foto2.jpeg');
         background-size: cover;
         background-position: center;
 
