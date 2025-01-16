@@ -38,7 +38,7 @@ form.addEventListener("submit", (e) => {
     body: new FormData(document.getElementById("sheetdb-form")),
   })
     .then(
-      (response) => (window.location.href = "obrigado.html"),
+      (response) => (window.location.href = "obrigado"),
       console.log("sucess")
     )
     .then(localStorage.setItem("formularioEnviado", true));
