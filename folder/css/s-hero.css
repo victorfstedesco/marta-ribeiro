@@ -44,6 +44,12 @@
     }
 }
 
+#h-campo-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .foto2{
     width: 100%;  
     background-image: url('../assets/foto2.jpeg');

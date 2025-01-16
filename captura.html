@@ -12,47 +12,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     
-    <link rel="stylesheet" href="./folder/css/obrigado.css">
+    <link rel="stylesheet" href="./folder/css/s-hero.css">
     <link rel="stylesheet" href="./folder/css/s-youtube.css">
     <link rel="stylesheet" href="./folder/css/s-modulos.css">
     <link rel="stylesheet" href="./folder/css/s-sobre.css">
     <link rel="stylesheet" href="./folder/css/s-mentora.css">
     <link rel="stylesheet" href="./folder/css/footer.css">
 
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1102599331564712');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1102599331564712&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
 </head>
 <body>
     <main class="container">
-        <section class="hero">
-        <div class="display"> 
+        <section id="hero">
+        <div class="display">
             <div class="logo">
                 <h4>MARTA RIBEIRO</h4>
                 <img src="./folder/assets/LOGO.svg" alt="">
             </div>
-                <!-- <h1 class="bold-outline" style="font-size: 6rem; line-height: 100%; width: 100%; word-break: break-all;">Obrigado por se inscrever</h1> -->
-                <div class="progresso">
-                    <div class="p-80">
-                        <h1>Sua inscrição está 90% completa..</h1>
+            <div class="c-hero">
+                <div class="cta">
+                    <div class="cta-text">
+                        <h1>Domine a linguagem corporal nas massagens e <strong class="bold">aumente</strong> o seu faturamento</h1>
+                        <h4><strong>Melhore seus resultados</strong>, libere seus alunos de dores crônicas e <strong>amplie sua autoridade na área.</strong></h4>
                     </div>
-                    <div class="p-20">
-
+                    <div id="h-campo-form">
+                        <!-- <form action="#" method="post" id="sheetdb-form">
+                            <input type="name" name="Nome" placeholder="Seu nome" required maxlength="100" />
+                            <input type="email" name="Email" placeholder="Seu melhor e-mail" required maxlength="100" />
+                            <input type="number" name="Telefone" placeholder="Telefone com DDD" size="4" maxlength="4" required  />
+                            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time"/>
+                            <button type="submit" id="submitbutton">
+                                <h6>Quero participar</h6>
+                                <img src="./folder/assets/arrow-up.svg" alt="">
+                            </button>
+                        </form> -->
                     </div>
                 </div>
-                <div class="o-siga">
-                    <div class="o-countdown">
-                        <a id="o-whatsapp-button" class="div-button" href="#hero" style="width: fit-content; display: flex; gap: 1rem;"> <!--Fazer countdown e redirecionar para o whatsapp-->
-                            Entre no grupo do whatsapp
-                            <img src="./folder/assets/arrow-up.svg" alt="">
-                        </a>
-                        <div class="o-contagem">
-                            <p id="o-contador" style="font-size: 14px;"></p>
-                        </div>
-                    </div>
-                    <!-- <h4 class="bold">Me siga nas redes sociais</h4>
-                    <div class="o-sociais">
-                        <a href="https://www.instagram.com/soueumartaribeiro/" style="width: 24px;" target="_blank"><img src="/folder/assets/instagram.svg" alt=""></a>
-                        <a href="https://www.google.com/search?q=Cl%C3%ADnica+Terap%C3%AAutica+Marta+Ribeiro%0D%0A&sca_esv=d5800e4590f8577b&rlz=1C1VDKB_enBR1139BR1139&sxsrf=ADLYWIIDr0UqIfCZe1Q3l1EeyflwsIl_5A%3A1736296824546&ei=eMl9Z8iFIeGS5OUP9JyJyA8&ved=0ahUKEwjIoc7b8eSKAxVhCbkGHXROAvkQ4dUDCBA&uact=5&oq=Cl%C3%ADnica+Terap%C3%AAutica+Marta+Ribeiro%0D%0A&gs_lp=Egxnd3Mtd2l6LXNlcnAiJENsw61uaWNhIFRlcmFww6p1dGljYSBNYXJ0YSBSaWJlaXJvCjIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTITEC4YgAQYsQMY0QMYQxjHARiKBTILEAAYgAQYsQMYgwEyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzIQEAAYgAQYsQMYgwEYigUYCkjvHlCYBViNHXAFeACQAQCYAYkBoAGHA6oBAzAuM7gBA8gBAPgBAfgBApgCB6ACngLCAggQABiwAxjvBcICCxAAGIAEGLADGKIEwgIEECMYJ8ICChAjGIAEGCcYigXCAggQLhiABBixA8ICEBAAGIAEGLEDGEMYgwEYigXCAgoQLhiABBhDGIoFwgIFEAAYgASYAwCIBgGQBgSSBwM1LjKgB5UX&sclient=gws-wiz-serp" style="width: 24px;" target="_blank"><img src="/folder/assets/google.svg" alt=""></a>
-                    </div> -->
+                <div class="foto2">
                 </div>
+            </div>
         </div>
         </section>
 
@@ -84,17 +99,15 @@
             </div>
         </section>
 
-        <!-- <section>
+        <section>
             <div class="display">
                 <div class="modulos">
                     <div class="tag"><span>Módulos</span></div>
                     <div id="modulos">
                         <div class="m-text">
                             <h2 class="bold">O que você vai aprender?</h2>
-                            <p>O objetivo do curso é relembrar e lhe ajudar
-                                nas execuções das técnicas clássicas de
-                                massagem, e pricipalmente lhe ensinar
-                                sobre a linguagem corporal.</p>
+                            <p>O objetivo do curso é lhe introduzir à linguagem corporal tratando a raiz da dor de seus clientes. Além de relembrar as técnicas clássicas da massoterapia e lhe dar um direcionamento profissional.
+                                Confira os módulos:</p>
                         </div>
                         <div class="m-card">
                             <h4>Introdução</h4>
@@ -129,9 +142,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-
-        
+        </section>
 
         <section class="sobre">
             <div class="display">
@@ -143,10 +154,30 @@
                             dores. Por isso foi feito a <h3>integração de
                             linguagem corporal</h3> com técnicas clássicas de massagem.</p>
                     </div>
+                        <a class="div-button" href="#hero">
+                            Quero participar
+                            <img src="./folder/assets/arrow-up.svg" alt="">
+                        </a>
                 </div>
             </div>
         </section>
 
+        <section>
+            <div class="display">
+                <div class="mentora">
+                    <div class="tag"><span>Mentora</span></div>
+                    <div class="c-mentora">
+                        <div class="c-mentora-text">
+                            <h1 class="bold">Marta Ribeiro</h1>
+                            <p>
+                                Sou Marta Ribeiro, tenho 54 anos, sou casada e mãe de dois filhos maravilhosos. Sou graduada em Educação Física pela UEM, com mais de 32 anos de experiência dedicados a melhorar a qualidade de vida das pessoas. Durante minha carreira, ministrei aulas de diversas modalidades, como pilates, musculação, ginástica, natação, hidroginástica, dança e treino funcional, sempre buscando aprimorar meus conhecimentos por meio de cursos e estudos. <br> Em 2011, aprofundei meu trabalho com a Massoterapia, descobrindo a importância do toque humano para aliviar dores e trazer bem-estar. Também me tornei mestre em Reiki, além de incorporar técnicas como Barras de Access e Linguagem Corporal, que utilizo em diagnósticos e tratamentos. Em 2022, concluí minha segunda graduação em Terapias Integrativas e Complementares pela Unicesumar, ampliando ainda mais minha visão sobre corpo e mente. <br> Hoje, dedico-me à Massagem Terapêutica associada à Linguagem Corporal e exercícios específicos que ajudam a liberar bloqueios físicos e mentais. Sinto-me realizada em poder proporcionar qualidade de vida e autoconhecimento às pessoas, ajudando-as a entender que a transformação depende delas mesmas. Por isso, ofereço um curso que capacita outros terapeutas a promoverem bem-estar e felicidade. </p>
+                        </div>
+                        <div class="foto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <footer>
             <div class="f-display">
@@ -157,30 +188,11 @@
                         <a href="https://www.google.com/search?q=Cl%C3%ADnica+Terap%C3%AAutica+Marta+Ribeiro%0D%0A&sca_esv=d5800e4590f8577b&rlz=1C1VDKB_enBR1139BR1139&sxsrf=ADLYWIIDr0UqIfCZe1Q3l1EeyflwsIl_5A%3A1736296824546&ei=eMl9Z8iFIeGS5OUP9JyJyA8&ved=0ahUKEwjIoc7b8eSKAxVhCbkGHXROAvkQ4dUDCBA&uact=5&oq=Cl%C3%ADnica+Terap%C3%AAutica+Marta+Ribeiro%0D%0A&gs_lp=Egxnd3Mtd2l6LXNlcnAiJENsw61uaWNhIFRlcmFww6p1dGljYSBNYXJ0YSBSaWJlaXJvCjIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTITEC4YgAQYsQMY0QMYQxjHARiKBTILEAAYgAQYsQMYgwEyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzIQEAAYgAQYsQMYgwEYigUYCkjvHlCYBViNHXAFeACQAQCYAYkBoAGHA6oBAzAuM7gBA8gBAPgBAfgBApgCB6ACngLCAggQABiwAxjvBcICCxAAGIAEGLADGKIEwgIEECMYJ8ICChAjGIAEGCcYigXCAggQLhiABBixA8ICEBAAGIAEGLEDGEMYgwEYigXCAgoQLhiABBhDGIoFwgIFEAAYgASYAwCIBgGQBgSSBwM1LjKgB5UX&sclient=gws-wiz-serp" style="width: 24px;" target="_blank"><img src="./folder/assets/google.svg" alt=""></a>
                     </div>
                 </div>
-                <h6>Site desenvolvido por <strong>Meoli</strong></h6>
+                <h6>Site desenvolvido por <a href="https://www.instagram.com/_barroscaio/" target="_blank"><strong>Meoli</strong></a></h6>
             </div>
         </footer>
 
-        <script>
-            let segundos = 10
-    
-            const contador = document.getElementById('o-contador') 
-    
-            const contagem = setInterval(() => {
-                contador.textContent = `Você será redirecionado em ${segundos}`
-                segundos--
-                
-                if(whatsapp = true){
-                    console.log('botão funcionado')
-                }
-
-                if(segundos < 0){
-                    clearInterval(contagem)
-                    window.location.href = 'https://www.instagram.com/correderua/'
-                }
-            }, 1000);
-        </script>
     </main>
-
+    <script src="./folder/data/index.js"></script>
 </body>
 </html>

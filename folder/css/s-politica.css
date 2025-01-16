@@ -1,0 +1,28 @@
+.logo{
+    margin-top: 3rem;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 0px 16px 0px 16px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+li{
+    font-weight: bold;
+    list-style: none;
+}
+
+.paragrafo{
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
