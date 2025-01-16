@@ -19,7 +19,7 @@ const onload = function () {
           <img src="/folder/assets/arrow-up.svg" alt="">
       </button>
   </form>
-   <p style = "font-size: 12px">Prometemos não usar nenhuma informação de contato para enviar qualquer tipo de SPAM. Os dados coletados são tratados nos termos da Lei Geral de Proteção de Dados e você pode se descadastrar da nossa lista a qualquer momento. Para mais informações, acesse nossa <a style="color: black; font-size: 12px;" href = "./politicaprivacidade.html" target="_blank">Política de Privacidade.</a></p>
+   <p style = "font-size: 12px">Prometemos não usar nenhuma informação de contato para enviar qualquer tipo de SPAM. Os dados coletados são tratados nos termos da Lei Geral de Proteção de Dados e você pode se descadastrar da nossa lista a qualquer momento. Para mais informações, acesse nossa <a style="color: black; font-size: 12px;" href = "./politicaprivacidade" target="_blank">Política de Privacidade.</a></p>
 
   `;
   }
