@@ -1,0 +1,50 @@
+.s-feedbacks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 24px 48px 24px;
+    background-color: #5974F6;
+}
+
+.s-f-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.s-f-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: start;
+}
+
+.f-feedbacks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.f-prints{
+    width: 226px;
+    height: 320px;
+    background-color: gray;
+}
+
+.tag-branca{
+    padding: 8px 24px 8px 24px;
+    width: fit-content;
+        
+    border: 1px solid white;
+    color: 9747FF;
+    border-radius: 8px;
+    
+    & span{
+        color: white;
+    }
+    
+}
