@@ -1,0 +1,51 @@
+.s-abrath{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.s-abrath img{
+    width: fit-content;
+}
+
+.a-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 60%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .s-abrath{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .a-text{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 60%;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+
+    .s-abrath{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .a-text{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 60%;
+    }
+    
+}

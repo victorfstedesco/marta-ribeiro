@@ -1,4 +1,4 @@
-.s-venda{
+#s-venda{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,5 +28,76 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    padding: 48px 24px 48px 24px;
+}
+
+.v-modulo{
+    display: flex;
+    gap: 1rem;
+}
+
+.v-modulo p{
+    color: white;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .s-venda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 48px 24px 48px 24px;
+        background-color: #5974F6;
+    }
+
+    .d-venda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .v-venda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding: 48px 16px 48px 16px;
+        background-image: url(../assets/bg.png);
+        width: 50%;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+    
+    .s-venda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 48px 24px 48px 24px;
+        background-color: #5974F6;
+    }
+
+    .d-venda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .v-venda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding: 48px 16px 48px 16px;
+        background-image: url(../assets/bg.png);
+        width: 50%;
+    }
+    
 }
 
