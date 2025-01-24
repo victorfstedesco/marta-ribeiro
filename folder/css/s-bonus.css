@@ -2,13 +2,15 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    padding: 0px 24px 0px 24px;
 }
 
 .s-cards-bonus{
     display: flex;
     justify-content: center;
     gap: 3rem;
-    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
 .b-card{
