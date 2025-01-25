@@ -29,11 +29,6 @@
     gap: 1.5rem;
 }
 
-.f-prints{
-    width: 226px;
-    height: 320px;
-    background-color: gray;
-}
 
 .tag-branca{
     padding: 8px 24px 8px 24px;
@@ -48,3 +43,56 @@
     }
     
 }
+
+.f-card-feedback{
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+    width: min-content;
+}
+
+.f-prints1{
+    width: 226px;
+    height: 320px;
+    background-color: gray;
+
+    background-image: url(../assets/caio.jpeg);
+    background-size:cover;           
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.f-prints2{
+    width: 226px;
+    height: 320px;
+    background-color: gray;
+
+    background-image: url(../assets/maria.jpeg);
+    background-size:cover;           
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.f-prints3{
+    width: 226px;
+    height: 320px;
+    background-color: gray;
+
+    background-image: url(../assets/rauffer.jpeg);
+    background-size:cover;           
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.f-prints4{
+    width: 226px;
+    height: 320px;
+    background-color: gray;
+
+    background-image: url(../assets/junior.jpeg);
+    background-size:cover;           
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
